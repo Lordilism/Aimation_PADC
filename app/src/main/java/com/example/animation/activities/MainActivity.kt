@@ -2,6 +2,8 @@ package com.example.animation.activities
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,15 +11,17 @@ import com.example.animation.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    companion object{
+        fun newIntent(context: Context):Intent{
+            return  Intent(context,MainActivity::class.java)
+        }
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnNavigate.setOnClickListener {
 
-//            Log.d("status",(number++).toString() )
-            ViewGroupAnimationActivity.newIntent(this)
-        }
 
         //value animator
 //        btnText.setOnClickListener {

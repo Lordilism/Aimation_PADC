@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_cross_fade_animation.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.24270833333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20555555555555555" />
         <entry key="app/src/main/res/layout/activity_physics_based_animation.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_view_group_animation.xml" value="0.2578125" />
